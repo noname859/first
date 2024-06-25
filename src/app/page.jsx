@@ -1,4 +1,5 @@
 import Image from "next/image";
+import titleimg from "../app/images/title.png";
 const people = [
   { number: 2028, name: "מעיין רבינוביץ" },
   { number: 2029, name: "איתי וויס" },
@@ -72,8 +73,8 @@ export default function Home() {
 
   return (
     <div className="bg-[#272660] text-white grid justify-center items-center h-screen w-full overflow-auto m-0 pt-16">
-      <img src="https://res.cloudinary.com/dvdzjj8jo/image/upload/v1719306737/firstodova_cqkhaw.png" alt="" className="w-[700px] h-[200px]" />
-      {/* <img src="../images/title" alt="" /> */}
+      <img src={titleimg.src} alt="" className="w-[700px] h-[200px]" />
+
       <div className=" p-8 rounded-lg shadow-lg font-bold w-full ">
         <h1 className=" text-4xl mb-4 max-w-[600px]">הרחבת המחנה, הקמת בית הליברלי הגדול, החלפת הממשלה.</h1>
         <br />
@@ -101,7 +102,6 @@ export default function Home() {
             </div>
           ))}
         </div>
-        <button className="bg-green-500 text-white w-full py-2 rounded hover:bg-green-600">Submit</button>
       </div>
     </div>
   );
