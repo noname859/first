@@ -71,7 +71,7 @@ const people = [
 export default function Home() {
 
   return (
-    <div className="bg-[#272660] text-white grid justify-center items-center h-screen w-full overflow-auto m-0">
+    <div className="bg-[#272660] text-white grid justify-center items-center h-screen w-full overflow-auto m-0 pt-16">
       <img src="https://res.cloudinary.com/dvdzjj8jo/image/upload/v1719306737/firstodova_cqkhaw.png" alt="" className="w-[700px] h-[200px]" />
       {/* <img src="../images/title" alt="" /> */}
       <div className=" p-8 rounded-lg shadow-lg font-bold w-full ">
